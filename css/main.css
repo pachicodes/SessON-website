@@ -1,0 +1,12 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/*HEADER*/
+
+header {
+    background-image: linear-gradient(to right, #1DDE9D , #FFFFFF);
+    color:  #FFFFFF;
+    text-shadow: 0px 2px 2px  #000000;
+
+}
