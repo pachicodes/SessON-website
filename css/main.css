@@ -45,7 +45,9 @@ header {
     background: transparent;
     border-radius: 4px;
     padding: 8px;
-    width: 150px;  
+    width: 140px;
+    font-size: 12px;
+     
 
 }
 .form__input-btn {
@@ -57,12 +59,16 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 16px;
-width: 150px;
+width: 160px;
 margin: 10px;
 margin-bottom: 0;
 border-radius: 4px;
-}
+font-size: 12px;
 
+}
+::placeholder {
+    color: #FFFFFF;
+}
 
 
 /*CONTENT*/
