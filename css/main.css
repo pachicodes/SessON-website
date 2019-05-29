@@ -5,9 +5,21 @@ body {
 }
 
 /*HEADER*/
-
 header {
-    background-image: linear-gradient(27deg, #1DDE9D, #C2FFEB);    
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+  }
+  
+  .main__bg {
+    background-image: linear-gradient(to top right, #1DDE9D, #C2FFEB);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: skewY(-4deg);
+    transform-origin: top left;  
 
 }
 
@@ -16,7 +28,8 @@ header {
 .main__title, .main__subtitle {
     text-shadow: 0px 2px 2px  rgba(0, 0, 0, 0.16);
     text-align: center;
-    color:  #FFFFFF; 
+    color:  #FFFFFF;
+    position: relative; 
 }
 
 .main__title {
@@ -31,6 +44,9 @@ header {
     line-height: 30px;
     font-weight: normal;
 
+}
+.form__input {
+    position: relative; 
 }
 
 .form__input-text {
@@ -70,6 +86,9 @@ font-size: 12px;
     color: #FFFFFF;
 }
 
+.main__img {
+    position: relative; 
+}
 
 /*CONTENT*/
 .content__title--left, .content__title--right {
