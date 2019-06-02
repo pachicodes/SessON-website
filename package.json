@@ -1,0 +1,23 @@
+{
+  "name": "sesson",
+  "version": "1.0.0",
+  "description": "projetinho maneiro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pachicodes/SessON-website.git"
+  },
+  "keywords": [
+    "ajuda",
+    "nois"
+  ],
+  "author": "eu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pachicodes/SessON-website/issues"
+  },
+  "homepage": "https://github.com/pachicodes/SessON-website#readme"
+}

@@ -6,7 +6,7 @@ body {
 
 header {
     position: relative;
-    height: 655px;
+    height: 420px;
     overflow: hidden;
 }
   
@@ -41,9 +41,18 @@ header {
     font-weight: normal;
 }
 
-.form {
-    position: relative; 
+.header__img {
+    float: right;
 }
+
+.form__top, .form__bottom {
+    position: relative;
+}
+.form__top {
+    position: absolute;
+    top: 270px;
+    left: 10px;
+} 
 
 .form__text {
     font-size: 12px;
@@ -57,8 +66,8 @@ header {
     background: transparent;
     border-radius: 4px;
     padding: 8px;
-    width: 140px;
-    font-size: 12px;
+    width: 144px;
+    font-size: 14px;
 }
 
 .form__btn {
@@ -70,11 +79,11 @@ header {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    width: 160px;
+    width: 177px;
     margin: 10px;
     margin-bottom: 0;
     border-radius: 4px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 ::placeholder {
@@ -89,7 +98,24 @@ header {
     font-size: 28px;
     line-height: 30px;
     font-weight: normal;
+    line-height: 20px;
+} 
+
+.main__text {
+    font-size: 20px;
 }
+
+.interest {
+    margin: 40px 0;
+}
+
+
+
+
+
+
+
+
 
 footer {
     background: #1DDE9D;
