@@ -110,6 +110,9 @@ header {
 .main__text {
     font-size: 20px;
 }
+.main__text:last-of-type {
+    padding-bottom: 40px; 
+}
 
 .main__img {
     padding: 10px;
@@ -121,7 +124,7 @@ header {
 
 footer {
     background: #1DDE9D;
-    height: 300px;
+    height: 280px;
 }
 
 .bottom__subtitle{
