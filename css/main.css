@@ -71,7 +71,11 @@ header {
     width: 177px;
     font-size: 14px;
     line-height: 54px;
-    height: 37px;
+    height: 37px;    
+}
+.form__email-footer{
+    text-align: center;
+    font-size: 18px;
 }
 
 .form__btn-top, .form__btn-footer {
@@ -97,8 +101,7 @@ header {
 
 .main__title, .main__title--right {
     line-height: 30px;
-    font-weight: normal;
-    line-height: 20px;
+    font-weight: normal;    
 } 
 
 .main__title {
@@ -128,7 +131,7 @@ footer {
 }
 
 .bottom__subtitle{
-    padding: 20px;
+    padding: 30px 10px;
 }
 
 .form__email-footer{
@@ -145,5 +148,5 @@ footer {
     color: #ffffff;
     position: absolute;
     top: 75px;
-    left: 165px;
+    left: 130px;
 }
